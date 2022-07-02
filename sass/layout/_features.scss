@@ -21,8 +21,7 @@
 		background-color: var(--secondary-bg-color);
 		border-radius: 4px;
 
-		// background-repeat: no-repeat;
-		// background-position: center;
+		
 
 		@include background(no-repeat, null, center);
 	}

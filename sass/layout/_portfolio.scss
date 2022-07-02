@@ -18,7 +18,7 @@
 
 	cursor: pointer;
 
-	@include transition(color background-color);
+	@include transition(color, background-color);
 
 	&:hover,
 	&:focus {
@@ -103,9 +103,6 @@
 
 .thumb__text {
 	padding: 63px 24px;
-
-	// font-size: 18px;
-	// line-height: 1.55;
 
 	@include font(null, 18px, 1.55, null);
 

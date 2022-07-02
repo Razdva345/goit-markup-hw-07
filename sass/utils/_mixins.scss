@@ -18,8 +18,8 @@
 	line-height: $lh;
 	letter-spacing: $ls;
 }
-@mixin transition($trp, $trd: 250ms, $trtf: cubic-bezier(0.4, 0, 0.2, 1)) {
-	transition-property: $trp;
-	transition-duration: $trd;
-	transition-timing-function: $trtf;
+@mixin transition($trpr...) {
+	transition-property: $trpr;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

@@ -18,9 +18,7 @@
 
 	outline: 2px solid transparent;
 
-	// @include transition(color background-color);
-
-	@include transition(background-color outline);
+	@include transition(background-color, outline);
 }
 .btn:hover,
 .btn:focus {

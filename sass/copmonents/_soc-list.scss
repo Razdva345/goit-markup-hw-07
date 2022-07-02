@@ -19,7 +19,7 @@
 
 	border-radius: 50%;
 
-	@include transition(color background-color);
+	@include transition(color, background-color);
 
 	&:hover,
 	&:focus {

@@ -20,7 +20,7 @@
 
 	color: var(--icons-fill);
 
-	@include transition(color border-color);
+	@include transition(color, border-color);
 
 	&:hover,
 	&:focus {
